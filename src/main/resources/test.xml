@@ -1,0 +1,5 @@
+<persistenceAdapter>
+    <replicatedLevelDB directory="${activemq.data}/leveldb" replicas="3" bind="tcp://0.0.0.0:61616"
+                       zkAddress="192.168.237.23:2181,192.168.237.23:2182,192.168.237.23:2183" hostname="192.168.237.23"
+                       zkPath="/home/mysql/app/activemq/8161/leveldb-stores"/>
+</persistenceAdapter>

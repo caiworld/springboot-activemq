@@ -1,0 +1,7 @@
+server:
+  port: 9001
+spring:
+  activemq:
+    broker-url: failover:(tcp://192.168.237.23:61616,tcp://192.168.237.23:61617,tcp://192.168.237.23:61618)
+    user: admin
+    password: admin
